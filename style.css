@@ -111,3 +111,77 @@ footer ul li a {
 footer ul li a:hover {
     color: #d4af37; /* Dourado */
 }
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    /* Ajustes para telas menores que 768px (tablets e smartphones) */
+
+    header .logo h1 {
+        font-size: 1.5rem; /* Reduz o tamanho do título no header */
+    }
+
+    header nav ul {
+        flex-direction: column; /* Coloca os itens do menu em coluna */
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0; /* Aumenta o espaçamento entre os itens do menu */
+    }
+
+    main {
+        padding: 1rem; /* Reduz o padding do conteúdo principal */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Reduz o tamanho dos títulos das seções */
+    }
+
+    .capa-filme {
+        max-width: 100%; /* Ajusta a largura da imagem do filme */
+    }
+
+    ul {
+        margin-left: 1rem; /* Reduz a margem da lista */
+    }
+
+    footer ul {
+        flex-direction: column; /* Coloca os itens do footer em coluna */
+    }
+
+    footer ul li {
+        margin: 0.5rem 0; /* Aumenta o espaçamento entre os itens do footer */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para telas menores que 480px (smartphones pequenos) */
+
+    header .logo h1 {
+        font-size: 1.2rem; /* Reduz ainda mais o tamanho do título no header */
+    }
+
+    header nav ul li a {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte dos links do menu */
+    }
+
+    main {
+        padding: 0.5rem; /* Reduz ainda mais o padding do conteúdo principal */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Reduz o tamanho dos títulos das seções */
+    }
+
+    ul {
+        margin-left: 0.5rem; /* Reduz ainda mais a margem da lista */
+    }
+
+    footer p {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte do texto no footer */
+    }
+
+    footer ul li a {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte dos links no footer */
+    }
+}
